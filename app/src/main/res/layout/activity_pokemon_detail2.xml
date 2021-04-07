@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvPokeTitle"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:text="Charmander"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F44336"
+        />
+
+    <ImageView
+        android:id="@+id/ivPokeSprite"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/joystickicon"/>
+
+    <TextView
+        android:id="@+id/tvPokeXp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivPokeSprite"
+        android:layout_toRightOf="@id/ivPokeSprite"
+        android:text="XP Base: 50"
+        android:textSize="15sp"/>
+
+
+
+
+</RelativeLayout>
